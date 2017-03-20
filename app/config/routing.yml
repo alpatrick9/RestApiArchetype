@@ -1,0 +1,8 @@
+places:
+    resource: "@ApiRestBundle/Controller/PlaceController.php"
+    type:     rest
+    prefix: /api
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
